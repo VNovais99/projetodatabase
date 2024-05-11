@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <div>
+          <h1 class="item titulo">
+            Commander 500<br />
+            Decklist Database
+          </h1>
+        </div>
+        <div class="item pesquisa">
+          <input type="text" placeholder="" name="busca" id="buscaBarra" />
+        </div>
+        <div class="item pesquisaCor">
+          <p class="corTitulo">Cores</p>
+          <p class="cores">
+            <img class="cores-simb" src="mana-symbol-white.png" />
+            <img class="cores-simb" src="mana-symbol-blue.png" />
+            <img class="cores-simb" src="mana-symbol-black.png" />
+            <img class="cores-simb" src="mana-symbol-red.png" />
+            <img class="cores-simb" src="mana-symbol-green.png" />
+          </p>
+          <p id="checkCor">
+            <input
+              type="checkbox"
+              class="cor"
+              id="cor1"
+              name="cor1"
+              value="branco"
+            />
+            <input
+              type="checkbox"
+              class="cor"
+              id="cor2"
+              name="cor2"
+              value="azul"
+            />
+            <input
+              type="checkbox"
+              class="cor"
+              id="cor3"
+              name="cor3"
+              value="preto"
+            />
+            <input
+              type="checkbox"
+              class="cor"
+              id="cor4"
+              name="cor4"
+              value="varmelho"
+            />
+            <input
+              type="checkbox"
+              class="cor"
+              id="cor5"
+              name="cor5"
+              value="verde"
+            />
+          </p>
+        </div>
+      </header>
+    </section>
+    <main>
+      <div id="apresentacao">
+        <p>
+          Commander 500 foi um torneio criado pela
+          <a href="https://linktr.ee/cedhbrasil" target="_blank" id="linkCEDH">cEDH Brasil</a>,
+          um ambiente mais competitivo porém com orçamento mais limitado.
+        </p>
+      </div>
+      <div id="decklists">
+        <div>
+          <details class="decklistMonoB conteudoDeck">
+            <summary class="nomeDeck">Yawgmoth</summary>
+              <div class="resumo-e-link">
+                <img src="cmd-yawgmoth-thran-physician.png" class="carta" />
+                    <p class="boxDosComandantes resumo">
+                      Um deck combo baseado criaturas com Imortal ou linhas de Lodo
+                      Necrótico.
+                    </p>
+                    <p class="boxDosComandantes linkTexto">
+                     Link:
+                      <a href="https://lig.ae/d/3916484" target="_blank" class="linkDeck"
+                    >Yaya 2.0</a>
+                </p>
+            </div>
+          </details>
+        </div>
+        <div>
+          <details class="decklistMonoR conteudoDeck">
+            <summary class="nomeDeck">Magda</summary>
+            <img src="cmd-magda-brazen-outlaw.png" class="carta" />
+            <p class="boxDosComandantes resumo">
+              Um deck de midrange baseados em artefatos que são possibilitados
+              através de anões de curva baixa.
+            </p>
+            <p class="boxDosComandantes linkTexto">
+              Link:
+              <a href="https://lig.ae/d/3638282" target="_blank" class="linkDeck">Magda Att</a>
+            </p>
+          </details>
+        </div>
+        <!-- <div>
+        <details class="decklistMonoG">
+            <summary class="nomeDeck">Yisan</summary>
+            <img src="cmd-yisan-the-wanderer-bard.png" class="carta">
+            <p>Um deck midrange baseado em criaturas que se adapta conforme o andamento do jogo.</p>
+            <p>Link: <a href="https://lig.ae/d/3434330">Yisan menos de 500 reais</a></p>
+        </details>
+        </div>
+        <div>
+        <details class="decklistDimir">
+           <summary class="nomeDeck">Nymris</summary>
+            <img src="cmd-nymris-oona-s-trickster.png" class="carta">
+            <p>Um deck control com CA embutido na zona de comando, finaliza com combo de Oráculo de Tassa.</p>
+            <p>Link: <a href="https://lig.ae/d/3438592">Nymris</a></p>
+        </details>
+        </div>
+        <div>
+        <details class="decklistIzzet">
+            <summary class="nomeDeck">Krark/Sakashima</summary>
+            <img src="" class="carta">
+            <p>Um deck de storm manual utilizando a habilidade do comandante de duplicar instantâneas e feitiços.</p>
+            <p>Link: <a href="https://lig.ae/d/3843112">The Potinho Returns</a></p>
+        </details>
+        </div>
+        <div>
+        <details class="decklistSimic">
+            <summary class="nomeDeck">Edric</summary>
+            <img src="cmd-edric-spymaster-of-trest.png" class="carta">
+            <p>Um deck tempo baseado em criaturas com evasão para abusar da habilidade do comandante com um pack de turnos extras.</p>
+            <p>Link: https://lig.ae/d/3942060<a href="">Edric 500</a></p>
+        </details>
+        </div>
+        <div>
+        <details class="decklistSultai" >
+            <summary class="nomeDeck">Tasigur</summary>
+            <img src="cmd-tasigur-the-golden-fang.png" class="carta">
+            <p>Um deck control que utiliza seu comandante para trazer ameaças de curva 7 para a mesa, tais como Nezahal ou Horror Quebra-casco.</p>
+            <p>Link: <a href="https://lig.ae/d/3810238">Tasigur Midrange</a></p>
+        </details>
+        </div>  -->
+      </div>
+    </main>
+  </body>
+</html>

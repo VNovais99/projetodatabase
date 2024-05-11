@@ -1,0 +1,332 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* joguei todos  os estilos que estava na section em header*/
+/* se mantesse daquele jeito todas as suas sections teriam aqueles estilos */
+header {
+    /* inicio estilo que tava section*/
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    top: 0px;
+    background: #E63C77;
+    /* fim estilo que tava section*/
+
+    /* adicionei left 0 para corrigir o motivo da header que estava sendo empurrado para direita */
+    left: 0px;
+    
+    /* inicio estilo que original de header*/
+    z-index: 999999999;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* fim estilo que original de header*/
+}
+
+
+
+.item {
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulo {
+    width: fit-content;
+    height: fit-content;
+    /*background-color: #000000;*/
+    font-family: 'Bigwhale';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 35px;
+    line-height: 40px;
+    color: #D9D9D9;
+}
+
+.pesquisa {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    /*background-color: #000000;*/
+}
+
+
+#buscaBarra {
+    width: 300px;
+    height: 30px;
+    border: 4px solid #2F5B84;
+    border-radius: 25px;
+    background: #D9D9D9 url(magnifying-glass.png) no-repeat 13px center;
+    background-size: 20px;
+}
+
+#buscaBotao {
+    width: 35px;
+    height: 30px;
+}
+
+#lupa {
+    width: 20px;
+    height: 20px;
+    margin-top: 10%;
+}
+
+.pesquisaCor {
+    /*background-color: #000000;*/
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Bigwhale';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 40px;
+    color: #D9D9D9;
+}
+
+.corTitulo {
+    margin-top: -5px;
+    margin-bottom: -35px;
+    text-align: end;
+    margin-right: 2px;
+}
+
+.cores {
+    margin-left: 2px;
+}
+
+.cores-simb {
+    width: 28px;
+    height: auto;
+    margin: 0px 3px 0px;
+    vertical-align: middle;
+}
+
+#checkCor {
+    margin-top: -50px;
+}
+
+.cor {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cor1 {
+    margin-left: 12px;
+
+}
+
+#apresentacao {
+
+    width: 670px;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 500;
+}
+
+a#linkCEDH {
+    font-weight: 800;
+    text-decoration: none;
+    color: #b5b832;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+main {
+    z-index: 1;
+}
+
+.decklistMonoB {
+    width: fit-content;
+    height: fit-content;
+    background: #242424;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid #090909;
+}
+
+.decklistMonoR {
+    background: #994242;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid #4E1717;
+    margin-top: 1%;
+}
+
+.decklistMonoG {
+    background: #90BA9E;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px; 
+    border: 8px solid #4D805E;
+    margin-top: 1%;
+}
+
+.decklistDimir {
+    background-image: linear-gradient(to right, #578EC1, #242424);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #416C94 , #090909 );
+    border-image-slice: 1;
+    margin-top: 1%;
+}
+
+.decklistIzzet {
+    background-image: linear-gradient(to right, #578EC1, #994242);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #416C94 , #4E1717 );
+    border-image-slice: 1;
+    margin-top: 1%;
+}
+  
+.decklistSimic {
+    background-image: linear-gradient(to right, #578EC1, #90BA9E);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #416C94 , #4D805E );
+    border-image-slice: 1;
+    margin-top: 1%;
+}
+
+.decklistSultai {
+    background-image: linear-gradient(to right,  #578EC1, #242424, #90BA9E);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #416C94 0%, #090909 50%, #4D805E 100%);
+    border-image-slice: 1;
+    margin-top: 1%;
+}
+
+.nomeDeck {
+    width: 700px;
+    height: 55px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.resumo-e-link {
+    display: grid;
+    max-width: 699px;
+    max-height: 331px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.conteudoDeck {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.carta {
+    grid-row: 1;
+    width: 240px;
+    height: auto;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 15px;
+    border-image: #090909;
+    grid-row-start: auto;
+}
+
+.carta:hover {
+    transform: scale(1.5); 
+  }
+
+.boxDosComandantes {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    background: rgba(204, 204, 204, 0.5);
+    border: 2px solid;
+    border-image: #090909;
+
+}
+
+.resumo {
+    grid-column: 2;
+    width: 410px;
+    height: 150px;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.linkTexto {
+    grid-column: 2;
+    width: 410px;
+    height: fit-content;
+    font-size: 22px;
+}
+
+.linkDeck {
+    text-decoration: none;
+    color: #2d475e;
+}
+
+.linkDeck:hover {
+    text-decoration: underline;
+}
+
+/* cores
+branco claro - #E2CE98
+branco escuro - #B9A674
+azul claro - #578EC1
+azul escuro - #416C94
+preto claro - #242424
+preto escuro - #090909
+vermelho claro - #994242
+vermelho escuro - #4E1717
+verde claro - #90BA9E
+verde escuro - #4D805E
